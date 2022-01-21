@@ -3,7 +3,7 @@
 __author__ = "730317751"
 
 word: str = input("Enter a 5-character word: ")
-if len(word) > 5:
+if len(word) != 5:
     print("Error: Word must contain 5 characters")
     exit()
 character: str = input("Enter a single character: ")
