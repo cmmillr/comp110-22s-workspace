@@ -28,4 +28,4 @@ else:
     if matches == 1:
         print(matches, "instance of", character, "found in", word)
     else:
-        print(matches, "instances found in", word)
+        print(matches, "instances of", character, "found in", word)
